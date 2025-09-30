@@ -28,17 +28,33 @@ const products = [
         id: 1,
         name: 'Biscoitos de Manteiga',
         description: 'Deliciosos biscoitos feitos com manteiga de qualidade superior.',
-        price: '55.00',
-        priceKg: '50.00',
+        price: '292.50',
+        priceKg: '250.00',
         image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
     },
     {
         id: 2,
         name: 'Biscoitos de Chocolate',
         description: 'Biscoitos crocantes com pedaços de chocolate belga.',
-        price: '60.00',
-        priceKg: '55.00',
+        price: '409.50',
+        priceKg: '350.00',
         image: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
+    },
+    {
+        id: 3,
+        name: 'Biscoitos de Custard',
+        description: 'Biscoitos crocantes de custard.',
+        price: '210.60',
+        priceKg: '180.00',
+        image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
+    },
+    {
+        id: 4,
+        name: 'Biscoitos de Maizena',
+        description: 'Biscoitos delicados com essência de Maizena.',
+        price: '175.50',
+        priceKg: '150.00',
+        image: 'https://images.unsplash.com/photo-1555507036-ab794f27d2e9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
     }
 ];
 
