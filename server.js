@@ -67,9 +67,17 @@ app.get('/api/company', (req, res) => {
     });
 });
 
-// Rota para servir o frontend
+// Rota principal
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    res.json({ 
+        message: '🚀 API Spinny Biscuitos Online!',
+        version: '1.0.0',
+        endpoints: [
+            '/api',
+            '/api/products', 
+            '/api/company'
+        ]
+    });
 });
 
 // Iniciar servidor
@@ -82,3 +90,6 @@ app.listen(PORT, HOST, () => {
     console.log(`🌐 API: http://localhost:${PORT}/api`);
     console.log(`📦 ${products.length} produtos carregados`);
 });
+
+
+
